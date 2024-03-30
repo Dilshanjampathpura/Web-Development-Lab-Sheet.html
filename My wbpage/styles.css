@@ -1,0 +1,55 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header h1{
+    opacity: 200%;
+}
+header, footer {
+    background-color: #333;
+    background-image: url('https://img.freepik.com/premium-photo/three-buses-highway-sunrise_674594-29517.jpg');
+    background-position: center top;
+    color:#ffffff ;
+    padding: 40px;
+}
+
+main {
+    padding: 20px;
+}
+section {
+    margin-bottom: 20px;
+}
+img {
+    max-width: 100%;
+    border-radius: 4px;
+    height: 340px;
+    width: 490px;
+}
+table {
+    width: 75%;
+    border-collapse: inherit;
+    
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+/* Media queries for responsiveness */
+@media only screen and (min-width: 600px) {
+    header, footer {
+        text-align: center;
+	    line-height: 10px;
+    }
+    nav ul {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    nav li {
+        display: inline;
+        margin-right: 20px;
+    }
+}
