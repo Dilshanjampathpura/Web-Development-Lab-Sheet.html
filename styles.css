@@ -1,0 +1,95 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header h1{
+    opacity: 100%;
+}
+header, footer {
+    background-color: #333;
+    background-image: url('https://www.shutterstock.com/image-photo/blue-sky-light-clouds-wide-260nw-1936901515.jpg');
+    background-position: center top;
+    background-size: 2000px ;
+    width: 100%;
+    color:#000000 ;
+    padding: 40px;
+}
+.post {
+    container-type: inline-size;
+    border-radius: 4px;
+    background-color: #81cde2;
+    width: 100%;
+    height: 60px;
+  }
+main {
+    padding: 20px;
+}
+section {
+    margin-bottom: 20px;
+}
+img {
+    max-width: 100%;
+    border-radius: 4px;
+    height: 340px;
+    width: 490px;
+    transition: transform 0.5s ease;
+}
+img:hover{
+    transform: scale(1.15); 
+}
+.sticker{
+    height: 30px;
+    width: 40px;
+}
+.backbotton {
+    transform: rotate(270deg);
+}
+#arrow{
+    border-radius: 4px;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+/* ulist{
+    padding: 5px;
+} */
+table {
+    width: 75%;
+    border-collapse: inherit;
+}
+a:link {
+    color: rgb(206, 16, 16);
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+.myDiv {
+    font-family: Georgia, serif;
+    font-size: 1.5rem;
+    /* text-align: center;*/
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+/* Media queries for responsiveness */
+/* @media only screen and (min-width: 600px) { */
+ header, footer {
+    text-align: center;
+    line-height: 10px;
+    width :93%;
+}
+nav ul {
+    display: inline-block;
+    margin: 5;
+    padding: 4;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+    padding: 0px;
+}
